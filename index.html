@@ -1,0 +1,39 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Warnes&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <form id="color-form">
+            <input type="color" id="color" value="#264653">
+            <select id="scheme-type" name="scheme-type">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogous</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogous-complement</option>
+                <option value="triad">Triad</option>
+            </select>
+            <button id="get-scheme">Get color scheme</button>
+        </form>
+        <div class="color-container" id="color-container">
+            <div class="color1" id="color1"> </div>
+            <div class="color2" id="color2"> </div>
+            <div class="color3" id="color3"> </div>
+            <div class="color4" id="color4"> </div>
+            <div class="color5" id="color5"> </div>    
+        </div>
+        <section class="hex-container" id="hex-container">
+            <p class="hex" id="hex1">#264653</p>
+            <p class="hex" id="hex2">#2a9d8f</p>
+            <p class="hex" id="hex3">#e9c46a</p>
+            <p class="hex" id="hex4">#f4a261</p>
+            <p class="hex" id="hex5">#e76f51</p>
+        </section>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

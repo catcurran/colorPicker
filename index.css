@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+form{
+    height: 40px;
+    display: flex;
+    margin: 1em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input{
+   background-color: #efede6;
+    border-radius: 2px;
+    border: none; 
+    height: 36px;
+}
+
+select, button{
+    background-color: #efede6;
+    border-radius: 8px;
+    padding: 0 .5em;
+    border: none;
+    height: 36px;
+    color: #6A6961;
+}
+
+select{
+    width: 240px;
+}
+
+
+.color-container{
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template: 400px / 1fr 1fr 1fr 1fr 1fr;
+}
+
+.hex-container{
+    display:grid;
+    grid-template: 60px / 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    color: #6A6961;
+}
+
+.color1{
+    background-color: #264653;
+}
+.color2{
+    background-color: #2a9d8f;
+}
+.color3{
+    background-color: #e9c46a;
+}
+.color4{
+    background-color: #f4a261;
+}
+.color5{
+    background-color: #e76f51;
+}
